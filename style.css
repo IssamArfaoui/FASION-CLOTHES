@@ -1,0 +1,359 @@
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+body {
+    background-color: #f2f8f8;
+}
+
+/*  start navbar */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-fasion {
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #139797;
+    letter-spacing: 2px;
+}
+.navbar {
+    z-index: 1;
+}
+.navbar .search input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.navbar form input:focus ,.toggle button:focus {
+    box-shadow: none;
+}
+.navbar form i {
+    position: relative;
+    left: -30px;
+}
+.navbar .login {
+    background-color: #139797;
+    transition: .4s;
+    color: white;
+}
+.offcanvas-body li a {
+    font-size: 18px;
+}
+@media (max-width: 767px) {
+    .dropdown .dropdown-menu {
+        border: none;
+    }
+}
+
+/*  end navbar */
+
+/* start slider  */
+
+section {
+    z-index: 0;
+    top: -60px;
+    position: relative;
+}
+section .carousel-item {
+    height: 100vh;
+}
+section .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+section .carousel-caption {
+    position: absolute;
+    top: 20%;
+    height: 240px;
+}
+section .carousel-caption h1 , section .carousel-caption h2  {
+    font-size: 80px;
+    color: #139797;
+}
+section .carousel-caption h6  {
+    color: #80BCBD;
+}
+section .carousel-caption button {
+    color: white;
+    background-color: #139797;
+}
+section .carousel-caption button:hover {
+    background-color: #f2f8f8;
+    color: #139797;
+    transition: .5s;
+}
+section .carousel-caption .fasion , section .carousel-caption .sale{
+    font-size: 110px;
+    letter-spacing: 25px;
+    color: white;
+}
+@media (max-width: 767px) {
+    section .carousel-caption h1 , section .carousel-caption h2  {
+        font-size: 70px;
+    }
+}
+/* end slider  */
+
+/* start M-W   */
+
+.parent-1 {
+    background-color: #F5F7F8;
+}
+.col .m-w {
+    position: relative;
+}
+.col .m-w h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 72px;
+    font-weight: bold;
+    z-index: 0;
+}
+.col .m-w figure {
+    overflow: hidden;
+    width: 100%;   
+    margin:  0 auto; 
+    z-index: 2;
+}
+.col .m-w figure img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover; 
+    
+}
+.col .m-w figure:hover img {
+    opacity: 0.8;
+    transition: 0.8s;
+    transform: scale(1.06);
+
+}
+@media (max-width: 767px) {
+    .row {
+        display: block;
+    }
+    .row img {
+        margin-top: 10px;
+    }
+    .row h1:last-child {
+        font-size: 46px;
+    }
+}
+
+/* end M-W   */
+
+/* start Arrivals */
+.Arrivals {
+    height: 80vh; 
+}
+.Arrivals h1 , h3 , .about p , .about h1 {
+    font-family: 'Vremena Grotesk Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Vremena Grotesk Bold'), url('VremenaGroteskBold.woff') format('woff');
+    font-size: 49px;
+    width: 100%;
+}
+.Arrivals h3 {
+    margin: 0 auto;
+    color: #7c7f89;
+    width: 64%;
+    word-spacing: 3px;
+}
+/* end Arrivals */
+
+
+/* start title  */
+.title a {
+    color: #838383;
+    font-size: 15px;
+    margin-right: 4px;
+    font-family: sans-serif;
+ 
+ }
+ .title a:hover {
+    text-decoration: underline;
+    color: black;
+ }
+ .title .all a {
+    color: #80BCBD;
+    letter-spacing: 5px;
+ }
+ @media (max-width: 767px) {
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .title .all a {
+        display: block;
+        
+       
+    }
+    .title .all {
+        width: 100%;
+        padding-top: 20px;
+    }
+ }
+ 
+ /* end title  */
+ 
+ /* start products  */
+ 
+ .products img {
+    width: 100%;
+ }
+ .products .row img {
+    padding: 5px;
+    background-color: #139797;
+    margin: 8px;
+    box-shadow: 0 1px 4px rgb(78, 78, 78);
+ }
+ .products .row img:hover {
+    transform: scale(1.02);
+    transition: .6s;
+ }
+
+ /* end products  */
+
+ /* start sold  */
+    .sold {
+        background: url(images/creative-portrait.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    .sold h4 {
+        color: #139797;
+    }
+    .color-main {
+        background-color: #80BCBD;
+    }
+    .sold h4 , .sold h1 ,.sold span ,.sold del ,.sold button {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 512;
+        font-style: normal;
+    }
+    .sold .btn {
+        letter-spacing: 4px;
+    }
+
+ /* end sold  */
+
+ /* start about  */
+ .about {
+    height: 100vh;
+ }
+ .about div p {
+    padding: 35px;
+ }
+ @media (max-width: 767px) {
+    .about div h1 {
+        font-size: 45px;
+    }
+    .about div p {
+        padding: 0px;
+    }
+ }
+ /* end about  */
+
+ /* start footer  */
+ .container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #1b1b1b;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #139797;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #716f6f;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #141212;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #757171;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #cdcdcf;
+	background-color: #222020;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+ /* end footer  */
+
+
+
+
+

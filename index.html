@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+
+    <!--  start navbar -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid ">
+        <a class=" navbar-fasion fs-3 " href="index.html">FASION-CLOTHES</a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title navbar-fasion fs-3" id="offcanvasNavbarLabel">FASION-CLOTHES</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body justify-content-center align-items-center gap-5">
+            <ul class="navbar-nav d-flex gap-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="store/index.html">Store</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#follow">Follow Us</a>
+              </li>
+            </ul>
+            <form class="search d-flex align-items-center" role="search">
+              <input class="form-control me-2  rounded-0 " type="text" placeholder="Search" aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass fs-5 "></i>
+            </form>
+          </div>
+        </div>
+          <div class="toggle">
+            <a href="login/index.html"><button class=" login p-2 pe-4 ps-4 rounded-1 border-0  ">Login <i class="fa-solid fa-right-to-bracket"></i></button></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- start slider  -->
+
+    <section class="position-relative w-100 ">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img  src="images/woman-background.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block ">
+              <h6>LIMITED SEASONAL OFFER</h6>
+              <h2 class="navbar-fasion animate__animated animate__fadeInRightBig ">Prices Up To </h2>
+              <h1 class="navbar-fasion animate__animated animate__fadeInLeftBig">-50% off</h1>
+              <button class="border-0 p-2 pe-3 ps-3 navbar-fasion animate__animated animate__bounce">Start Shopping</button>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="images/lucas-hoang.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-md-block  ">
+              <h1 class=" fasion animate__animated animate__fadeInLeftBig">FASION</h1>
+              <h1 class=" sale animate__animated animate__fadeInRightBig">SALE.</h1>
+              <button class="border-0 p-2 pe-3 ps-3 navbar-fasion animate__animated animate__bounce">Start Shopping</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- end slider  -->
+
+     <!-- Start M-W -->
+    <div class=" parent-1 container-fluid  ">
+      <div class="row justify-content-center">
+        <div class="col col-12  col-xl-5 col-lg-3 col-md-4 ">
+          <a class="m-w" href="../store/index.html" >
+            <figure> <img class="rounded-2" src="images/man.jpg" alt=""> </figure>
+            <h1 class="text-white display-3 fw-bold mb-0">MEN</h1>
+          </a>
+        </div>
+        <div class="col col-12 col-xl-5 col-lg-3 col-md-4 ">
+          <a class="m-w" href="../store/index.html"><figure> <img class="rounded-2" src="images/woman.jpg" alt=""></figure>
+            <h1 class="text-white display-3 fw-bold mb-0">WOMEN</h1>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end M-W    -->
+     <!-- start Arrivals  -->
+
+    <div class="Arrivals text-center ">
+      <div class="pt-5">
+        <h1 class="p-5 "> New Arrivals</h1>
+        <h3 class="fs-5 text-gray">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little
+        he could see his brown belly, slightly domed and divided by arches into stiff sections</h3>
+      </div>
+    </div>
+
+<!-- end Arrivals -->
+
+
+
+
+<!-- start title  -->
+
+<div class="container-fluid  ">
+  <div class=" title d-flex justify-content-between p-2">
+    <div class="">
+        <a href="../store/index.html" class="text-dark">All products</a>
+        <a href="#">clothing</a>
+        <a href="#">T-shirts</a>
+        <a href="#">Shoes</a>
+        <a href="#">Accessories</a>
+    </div>
+    <div class="all">
+      <a class="prod" href="#">ALL PRODUCTS</a>
+    </div>
+  </div>
+</div>
+<!-- end title  -->
+
+
+<!-- start products -->
+
+<div class="products container text-center p-3 pt-2 pb-5">
+  <div class="row row-cols-2 row-cols-sm-5 row-cols-md-6 pt-2">
+    <div class="col "><img src="images/products/stylish-woman.jpg" alt=""></div>
+    <div class="col "><img src="images/products/man-1.jpg" alt=""></div>
+    <div class="col "><img src="images/products/woman-black.jpg" alt=""></div>
+    <div class="col "><img src="images/products/man-2.jpg" alt=""></div>
+    <div class="col "><img src="images/products/beautiful-young-woman-red.jpg" alt=""></div>
+    <div class="col "><img src="images/products/man-3.jpg" alt=""></div>
+    <div class="col "><img src="images/products/young-beautiful.jpg" alt=""></div>
+    <div class="col "><img src="images/products/man-4.jpg" alt=""></div>
+    <div class="col "><img src="images/products/woman-smiles-studio.jpg" alt=""></div>
+    <div class="col "><img src="images/products/man-5.jpg" alt=""></div>
+    <div class="col "><img src="images/products/close-up-side.jpg" alt=""></div>
+    <div class="col "><img src="images/products/man-6.jpg" alt=""></div>
+  </div>
+  </div>
+<!-- end products -->
+
+<!-- start sold  -->
+
+    <div class="sold ">
+      <div class="p-5">
+        <h4 class="p-2 ps-3">Deal Of the Week</h4>
+        <h1 class="p-2 ps-3">Oversized denim  Jacket</h1>
+        <span class="fs-5 price p-3"><del class="text-muted  fw-light fs-6">$129.00</del> $79.00</span>
+        <button class="color-main sold-buttom d-block p-2 m-3 rounded-1 border-0 fs-6">$50 off</button>
+        <button type="button" class="btn btn-outline-dark rounded-0 p-3 ps-5 pe-5 fs-5">Shop Now</button>
+      </div>
+    </div>
+<!-- end sold  -->
+
+<!-- start about -->
+
+<div id="about" class=" about container-fluid text-center  pt-5 d-flex justify-content-center align-items-center">
+  <div class="p-2 ">
+    <h1>OUR HISTORY</h1>
+    <p class="text-secondary fs-5">
+      Welcome to <span class="navbar-fasion">FASION-CLOTHES</span>, your destination for on-trend and timeless fashion essentials! At <span class="navbar-fasion">FASION-CLOTHES</span>, step into our virtual store and explore a world of fashion possibilities. 
+      From elegant dresses to cozy jackets, and from tailored suits to casual denim, we offer a variety of clothing options to suit every taste and occasion. What sets us apart is our commitment to quality,
+      style and affordability. We carefully select every piece in our stock to ensure exceptional craftsmanship, fashionable designs and comfortable fabrics that look as good as they look. Join us on this fashion journey and discover the joy of expressing your unique style through fashion clothing.
+    </p>
+  </div>
+</div>
+
+<!-- end about -->
+<hr>
+<!-- start footer  -->
+
+
+
+<footer id="follow" class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul class="p-0">
+          <li><a href="#">about us</a></li>
+          <li><a href="#">our services</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">affiliate program</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul class="p-0">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">shipping</a></li>
+          <li><a href="#">returns</a></li>
+          <li><a href="#">order status</a></li>
+          <li><a href="#">payment options</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>online shop</h4>
+        <ul class="p-0">
+          <li><a href="#">watch</a></li>
+          <li><a href="#">bag</a></li>
+          <li><a href="#">shoes</a></li>
+          <li><a href="#">dress</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- end footer  -->
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendor/aos/dist/aos.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
